@@ -49,9 +49,11 @@ public class OrderDeliveryUI extends JFrame {
 
         cmbAgents = new JComboBox<>();
 
-        cmbAgents.addItem("1 - Kamal");
-        cmbAgents.addItem("2 - Nimal");
-        cmbAgents.addItem("3 - Sunil");
+        cmbAgents.addItem("1 - Zaid");
+        cmbAgents.addItem("2 - Aazim");
+        cmbAgents.addItem("3 - Rifdhi");
+        cmbAgents.addItem("4 - Akthar");
+
 
         add(cmbAgents);
 
