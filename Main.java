@@ -1,14 +1,9 @@
-package com.greenloop;
-
-import com.greenloop.ui.OrderManagementUI;
+import ui.OrderDeliveryUI;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        OrderManagementUI ui =
-                new OrderManagementUI();
-
-        ui.setVisible(true);
+        new OrderDeliveryUI().setVisible(true);
     }
 }
